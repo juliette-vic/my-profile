@@ -1,0 +1,89 @@
+body{background-color:rgb(255,255,160);
+	color:rgb(30,30,30);
+	font-family: 'Istok Web', sans-serif;
+	font-weight:lighter;
+	font-size: 15px
+	}
+
+h1{color: rgb(192,0,32);
+    font-family: 'Manjari', sans-serif;
+    font-weight:bold;
+    letter-spacing: 7px;
+    font-size: 35px;
+}
+h2{color: rgb(0, 96, 64);
+    font-family: 'Spinnaker', sans-serif;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+a{
+	text-decoration: none;
+	color: blue
+}
+a:hover{color: orange
+}
+
+div{
+	background: rgb(255,255,224);
+    padding: 40px 20px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px 0px rgb(50 50 93 / 51%);
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+}
+.container{
+	width: 700px
+	margin:40px auto;
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+.btn-blue{
+	background-color: rgb(0, 96, 192);
+	color: rgb(255,255,255);
+	padding:8px 15px;
+}
+.btn-blue:hover {
+	background-color: orange;
+	color: white;
+}
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+.list-inline li {
+  display: inline; 
+  padding: 10px; 
+}
+.list-inline i {
+	font-size: 100px;
+	color: rgb(230,230,230);
+}
+.list-inline i:hover {
+	color: orange;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+#introduction p{
+	margin-bottom: 40px
+}
